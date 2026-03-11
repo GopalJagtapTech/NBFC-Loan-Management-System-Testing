@@ -1,21 +1,9 @@
-# Login Module Test Scenarios
+# Loan Management System Test Cases
 
-TS_01 Verify login with valid credentials
-
-TS_02 Verify login with invalid username
-
-TS_03 Verify login with invalid password
-
-TS_04 Verify login with blank username
-
-TS_05 Verify login with blank password
-
-TS_06 Verify login with both fields blank
-
-TS_07 Verify error message for invalid login
-
-TS_08 Verify user redirected to dashboard after login
-
-TS_09 Verify logout functionality
-
-TS_10 Verify session timeout after inactivity
+| Test Case ID | Functionality | Test Description | Pre-Requisite | Steps to Reproduce | Expected Result | Actual Result | Status |
+|---------------|--------------|-----------------|---------------|-------------------|----------------|---------------|--------|
+| TC_001 | Login | Verify login with valid credentials | User should be registered | Enter valid username and password and click login | User should login successfully | | |
+| TC_002 | Login | Verify login with invalid username | User should be registered | Enter invalid username and valid password | Error message should display | | |
+| TC_003 | Login | Verify login with invalid password | User should be registered | Enter valid username and invalid password | Error message should display | | |
+| TC_004 | Loan Application | Verify loan application submission | User should be logged in | Fill loan form and click submit | Loan request should be created | | |
+| TC_005 | Loan Status | Verify loan status tracking | Loan request created | Navigate to loan status page | Loan status should display | | |
